@@ -1,7 +1,8 @@
 import numpy as np
 import pandas as pd
-import nmatplotlib.ppyplot as plt 
-import ppickle
+import matplotlib.pyplot as plt 
+import pickle
+
 
 df = pd.read_csv('50_Startups.csv')
 
